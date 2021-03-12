@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar friends;
+public <myfriends> = Anubhav | Manish | Aakash | Rohit | Bikash;
+public <greet> = Hello <myfriends>; 
+public 
