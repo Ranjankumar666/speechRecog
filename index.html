@@ -25,12 +25,16 @@
             .hide-element {
                 display: none !important;
             }
+
+            .rev-text-color {
+                mix-blend-mode: difference;
+            }
         </style>
         <title>Document</title>
     </head>
     <body>
         <div class="container">
-            <br class="row py-lg-5 py-md-3 py-sm-5">
+            <div class="row py-lg-5 py-md-3 py-sm-5 rev-text-color">
                 0. Press the button to start</br>
                 1. Say "color yourColor" to change background color.</br> 2. Say
                 "stop" to stop listening.</br> 3. Say "hello" to greet.</br>
@@ -75,7 +79,7 @@
                         </svg>
                     </button>
                 </div>
-                <div class="collapse" id="myCollapse"></div>
+                <div class="collapse py-sm-5" id="myCollapse"></div>
             </div>
             <div class=""></div>
         </div>
